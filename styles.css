@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Ranchers';
+  src: url('Ranchers-Regular.ttf');
+}
+
+h1,
+.hoverText,
+.london {
+  font-family: 'Ranchers';
+  text-align: center;
+}
+
+h1 {
+  color: midnightblue;
+}
+
+.london {
+  font-size: 3rem;
+}
+
+.tomGIF {
+  position: relative;
+}
+
+.hoverText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: hotpink;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .hoverText {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+} ;
