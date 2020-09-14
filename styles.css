@@ -1,21 +1,17 @@
-@font-face {
-  font-family: 'Ranchers';
-  src: url('Ranchers-Regular.ttf');
-}
-
 h1,
 .hoverText,
 .london {
-  font-family: 'Ranchers';
   text-align: center;
 }
 
 h1 {
+  font-family: 'Audiowide', cursive;
   color: midnightblue;
   margin-top: 20px;
 }
 
 .london {
+  font-family: 'Audiowide', cursive;
   font-size: 3rem;
 }
 
@@ -24,6 +20,7 @@ h1 {
 }
 
 .hoverText {
+  font-family: 'Fredoka One', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,7 +32,7 @@ h1 {
 
 @media only screen and (max-width: 700px) {
   .hoverText {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   h1 {
     font-size: 3rem;
